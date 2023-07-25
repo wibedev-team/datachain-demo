@@ -3,6 +3,7 @@
 import { useState } from "react";
 import BurgerIcon from "./componentIcons/BurgerMenuIcon";
 import CloseMenuIcon from "./componentIcons/CloseMenuIcon";
+import MainLogoIcon from "./componentIcons/MainLogoIcon";
 
 const navLinks = [
     'About us',
@@ -18,21 +19,20 @@ const BurgerNavigation = () => {
         setClicked(!clicked)
     }
     return ( 
-        <div className="md:hidden ">
-
+        <div className="md:hidden">
         {clicked?
-        <div className="w-[45%] h-[270px] bg-black">
-            <div className="text-white text-sm pl-2 pt-4 pb-2 pr-2 flex justify-between">
-                <p>
-                    Data CHAIN
+        <div className="w-[49%] h-[330px] bg-transparent">
+            <div className="text-white text-sm pl-7 pt-9 pb-2 pr-2 flex items-center">
+                <p className="flex items-center gap-3 text-base/4 font-bold">
+                    <MainLogoIcon/>
+                    DataCHAIN
                 </p>
-                <button className="w-[20px] h-[20px]" onClick={handleClick} >
+                <button className="w-[20px] h-[20px] ml-[40%]" onClick={handleClick} >
                 <CloseMenuIcon/>
                 </button>
                 
             </div>
-            <hr/>
-            <ul className="text-white pl-2" >
+            <ul className="text-white ml-11" >
                 {navLinks.map((link,index)=>{
                     return (
                         <li key={index} className="pt-4"><a className="cursor-pointer">{link}</a></li>

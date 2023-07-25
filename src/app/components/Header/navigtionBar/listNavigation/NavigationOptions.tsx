@@ -15,9 +15,9 @@ const NavigationOptions = () => {
                 return <a className="
                 text-white
                 opacity-75
-                xl:text-lg/5 cursor-pointer xl:pl-6 
-                lg:text-[12px] lg:pl-4
-                md:text-[11px] md:pl-2" 
+                xl:text-lg/5 cursor-pointer xl:ml-6 
+                lg:text-[12px] lg:ml-4
+                md:text-[11px] md:ml-2" 
                 key={index}>{link}</a>
             })}
         </div>

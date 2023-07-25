@@ -7,9 +7,9 @@ const Header = () => {
         <div className="w-full items-center
         md:pt-20 md:pl-16
         lg:pl-16">
-            <BurgerNavigation/>
             <NavigationOptions/>
             <PlanetImage/>
+            <BurgerNavigation/>
         </div>
         
         

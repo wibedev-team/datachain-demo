@@ -21,7 +21,7 @@ const BurgerNavigation = () => {
     return ( 
         <div className="md:hidden">
         {clicked?
-        <div className="absolute top-0 left-0 right-0 bottom-0 h-full z-10" style = {{
+        <div className="absolute top-0 left-0 right-0 bottom-0 w-full h-full z-10" style = {{
             backgroundImage: 'url("/media/images/background.png")',
             backgroundSize:"cover"}}>
             <div className="text-white text-sm pl-7 pt-9 pb-2 pr-2 flex items-center justify-between">

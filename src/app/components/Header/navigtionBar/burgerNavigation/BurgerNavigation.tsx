@@ -21,13 +21,15 @@ const BurgerNavigation = () => {
     return ( 
         <div className="md:hidden">
         {clicked?
-        <div className="w-[49%] h-[330px] bg-transparent">
-            <div className="text-white text-sm pl-7 pt-9 pb-2 pr-2 flex items-center">
+        <div className="absolute top-0 left-0 right-0 bottom-0 h-full z-10" style = {{
+            backgroundImage: 'url("/media/images/background.png")',
+            backgroundSize:"cover"}}>
+            <div className="text-white text-sm pl-7 pt-9 pb-2 pr-2 flex items-center justify-between">
                 <p className="flex items-center gap-3 text-base/4 font-bold">
                     <MainLogoIcon/>
                     DataCHAIN
                 </p>
-                <button className="w-[20px] h-[20px] ml-[40%]" onClick={handleClick} >
+                <button className="w-[20px] h-[20px] mr-6" onClick={handleClick} >
                 <CloseMenuIcon/>
                 </button>
                 

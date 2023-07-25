@@ -1,6 +1,6 @@
 const WriteToUsIcon = () => {
-    return ( <svg width="17" height="20" viewBox="0 0 17 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.447266 19.4508L16.3523 10.2L0.447266 0.949097V8.1442L11.8408 10.2L0.447266 12.2557V19.4508Z" fill="#B2EBF2"/>
+    return ( <svg width="16" height="19" viewBox="0 0 16 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 18.7508L15.905 9.49989L0 0.249023V7.44413L11.3935 9.49989L0 11.5557V18.7508Z" fill="white"/>
     </svg>
     
      );

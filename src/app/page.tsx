@@ -1,11 +1,12 @@
-import Header from './components/header'
-import WelcomeBlock from './components/main/WelcomeBlock'
+import React from "react";
+import WelcomeBlock from "@widgets/WelcomeBlock/WelcomeBlock";
+import Header from "@widgets/Header/Header";
 
 export default function Home() {
   return (
     <main>
-      <Header/>
-      <WelcomeBlock/>
+      <Header />
+      <WelcomeBlock />
     </main>
-  )
+  );
 }

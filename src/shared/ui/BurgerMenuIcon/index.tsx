@@ -1,2 +1,1 @@
-import BurgerMenuIcon from "./BurgerMenuIcon";
-export default BurgerMenuIcon;
+export * from './BurgerMenuIcon'

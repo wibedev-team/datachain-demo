@@ -1,6 +1,6 @@
 import React from "react";
 
-const PlanetImage = () => {
+export const PlanetImage = () => {
   return (
     <div
       className="bg-cover absolute right-0 top-0
@@ -16,5 +16,3 @@ const PlanetImage = () => {
     ></div>
   );
 };
-
-export default PlanetImage;

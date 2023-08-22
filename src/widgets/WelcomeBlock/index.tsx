@@ -1,2 +1,1 @@
-import WelcomeBlock from "./WelcomeBlock";
-export default WelcomeBlock;
+export * from './WelcomeBlock'

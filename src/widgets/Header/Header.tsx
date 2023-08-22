@@ -1,9 +1,9 @@
-import PlanetImage from "@shared/ui/PlanetImage";
-import BurgerNavigation from "@features/BurgerNavigation";
-import ListNavigation from "@features/ListNavigation";
+import {PlanetImage} from "@shared/ui/PlanetImage";
+import {BurgerNavigation} from "@features/BurgerNavigation";
+import {ListNavigation} from "@features/ListNavigation";
 import React from "react";
 
-const Header = () => {
+export const Header = () => {
   return (
     <div
       className="w-full  items-center
@@ -16,4 +16,3 @@ const Header = () => {
     </div>
   );
 };
-export default Header;

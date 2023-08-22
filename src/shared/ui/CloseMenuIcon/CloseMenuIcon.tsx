@@ -1,6 +1,6 @@
 import React from "react";
 
-const CloseMenuIcon = () => {
+export const CloseMenuIcon = () => {
   return (
     <svg
       width="21"
@@ -17,4 +17,3 @@ const CloseMenuIcon = () => {
   );
 };
 
-export default CloseMenuIcon;

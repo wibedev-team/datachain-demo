@@ -1,6 +1,6 @@
 import React from "react";
 
-const MainLogoIcon = () => {
+export const MainLogoIcon = () => {
   return (
     <svg
       width="42"
@@ -18,5 +18,3 @@ const MainLogoIcon = () => {
     </svg>
   );
 };
-
-export default MainLogoIcon;

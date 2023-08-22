@@ -1,14 +1,8 @@
-import React from "react";
+import React from 'react'
 
-const BurgerMenuIcon = () => {
+export const BurgerMenuIcon = () => {
   return (
-    <svg
-      width="29"
-      height="20"
-      viewBox="0 0 29 20"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
+    <svg width="29" height="20" viewBox="0 0 29 20" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
         d="M26.4706 3.52941H1.76471C0.764706 3.52941 0 2.76471 0 1.76471C0 0.764706 0.764706 0 1.76471 0H26.4706C27.4706 0 28.2353 0.764706 28.2353 1.76471C28.2353 2.76471 27.4706 3.52941 26.4706 3.52941Z"
         fill="white"
@@ -22,7 +16,5 @@ const BurgerMenuIcon = () => {
         fill="white"
       />
     </svg>
-  );
-};
-
-export default BurgerMenuIcon;
+  )
+}

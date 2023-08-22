@@ -1,2 +1,1 @@
-import CloseMenuIcon from "./CloseMenuIcon";
-export default CloseMenuIcon;
+export * from './CloseMenuIcon'

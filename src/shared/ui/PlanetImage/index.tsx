@@ -1,2 +1,1 @@
-import PlanetImage from "./PlanetImage";
-export default PlanetImage;
+export * from './PlanetImage'

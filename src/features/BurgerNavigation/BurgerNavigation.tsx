@@ -1,24 +1,18 @@
-"use client";
+'use client'
 
-import { useState } from "react";
-import BurgerMenuIcon from "@shared/ui/BurgerMenuIcon";
-import CloseMenuIcon from "@shared/ui/CloseMenuIcon";
-import MainLogoIcon from "@shared/ui/MainLogoIcon";
-import React from "react";
+import { useState } from 'react'
+import { BurgerMenuIcon } from '@shared/ui/BurgerMenuIcon'
+import { CloseMenuIcon } from '@shared/ui/CloseMenuIcon'
+import { MainLogoIcon } from '@shared/ui/MainLogoIcon'
+import React from 'react'
 
-const navLinks = [
-  "About us",
-  "Technology stack",
-  "Solutions",
-  "Team",
-  "Contact us",
-];
+const navLinks = ['About us', 'Technology stack', 'Solutions', 'Team', 'Contact us']
 
-const BurgerNavigation = () => {
-  const [clicked, setClicked] = useState(false);
+export const BurgerNavigation = () => {
+  const [clicked, setClicked] = useState(false)
   const handleClick = () => {
-    setClicked(!clicked);
-  };
+    setClicked(!clicked)
+  }
   return (
     <div className="md:hidden">
       {clicked ? (
@@ -38,7 +32,7 @@ const BurgerNavigation = () => {
                 <li key={index} className="pt-4">
                   <a className="cursor-pointer">{link}</a>
                 </li>
-              );
+              )
             })}
           </ul>
         </div>
@@ -48,7 +42,5 @@ const BurgerNavigation = () => {
         </button>
       )}
     </div>
-  );
-};
-
-export default BurgerNavigation;
+  )
+}

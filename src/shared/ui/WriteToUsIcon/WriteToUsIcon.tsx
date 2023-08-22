@@ -1,6 +1,6 @@
 import React from "react";
 
-const WriteToUsIcon = () => {
+export const WriteToUsIcon = () => {
   return (
     <svg
       width="16"
@@ -18,5 +18,3 @@ const WriteToUsIcon = () => {
     </svg>
   );
 };
-
-export default WriteToUsIcon;

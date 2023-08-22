@@ -1,2 +1,1 @@
-import MainLogoIcon from "./MainLogoIcon";
-export default MainLogoIcon;
+export * from './MainLogoIcon'

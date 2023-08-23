@@ -1,9 +1,12 @@
-import Image from 'next/image'
+import React from "react";
+import {WelcomeBlock} from "@widgets/WelcomeBlock/WelcomeBlock";
+import {Header} from "@widgets/Header/Header";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1 className='text-[#ef2112]'>GIT INIT</h1>
+    <main>
+      <Header />
+      <WelcomeBlock />
     </main>
-  )
+  );
 }

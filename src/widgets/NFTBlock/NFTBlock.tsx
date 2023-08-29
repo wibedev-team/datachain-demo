@@ -1,8 +1,13 @@
-import React from 'react'
-import { List } from '@shared/ui/List'
+import React from 'react';
+import { List } from '@shared/ui/List';
 
-const dataItems = ['iOS / Android application online configurator', 'App Store / Google Play application publishing module', 'Hosted applications dynamic changes module', 'User base analytics module']
-const toolsItems = ['Cloud platforms technical review', 'Mobile e-commerce market research']
+const dataItems = [
+  'iOS / Android application online configurator',
+  'App Store / Google Play application publishing module',
+  'Hosted applications dynamic changes module',
+  'User base analytics module',
+];
+const toolsItems = ['Cloud platforms technical review', 'Mobile e-commerce market research'];
 
 export const NFTBlock = () => {
   return (
@@ -13,6 +18,7 @@ export const NFTBlock = () => {
         <div>
           <List title="DATA" listItems={dataItems} />
           <List title="TOOLS" listItems={toolsItems} />
+          <div></div>
 
           <button
             className="flex  text-[#B2EBF2]   border-solid border-[1px] border-green-100 items-center justify-center gap-5 
@@ -29,5 +35,5 @@ export const NFTBlock = () => {
         <img src="/media/images/MaskGroup.png" alt="image" className="w-[820px]" />
       </div>
     </section>
-  )
-}
+  );
+};

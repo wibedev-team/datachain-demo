@@ -2,8 +2,8 @@ import React from 'react'
 import Image from 'next/image'
 
 import { ToolkitList } from '@shared/ui/ToolkitList'
-
 import { SectionTitle } from '@shared/ui/SectionTitle'
+import { Button } from '@shared/ui/Button'
 
 const DataList = ['Cloud platforms technical review', 'Mobile e-commerce market research']
 const ToolsList = ['iOS / Android application online configurator', 'App Store / Google Play application publishing module', 'Hosted applications dynamic changes module', 'User base analytics module']
@@ -17,6 +17,8 @@ export const MobileBlock = () => {
 
       <ToolkitList title="data" list={DataList} />
       <ToolkitList className="mt-[15px]" title="tools" list={ToolsList} />
+
+      <Button className="mt-[30px]" />
     </section>
   )
 }

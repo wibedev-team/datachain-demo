@@ -11,6 +11,13 @@ module.exports = {
         xl: '130px',
       },
     },
+    screens: {
+      sm: '376px',
+      md: '768px',
+      lg: '1280px',
+      xl: '1660px',
+      '2xl': '1920px',
+    },
     extend: {
       colors: {
         primary: '#ffffff',

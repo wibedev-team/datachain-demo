@@ -8,6 +8,12 @@ module.exports = {
         DEFAULT: '20px',
       },
     },
+    screens: {
+      sm: '768px',
+      md: '1280px',
+      lg: '1920px',
+      // xl: '1920px',
+    },
     extend: {
       colors: {
         primary: '#ffffff',

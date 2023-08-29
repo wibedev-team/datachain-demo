@@ -21,7 +21,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/Logo.ico" type="image/x-icon" />
       </head>
-      <body className={`${inter.className} background`}>{children}</body>
+      <body className={`${inter.className} background overflow-x-hidden`}>{children}</body>
     </html>
   );
 }

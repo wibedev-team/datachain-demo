@@ -3,16 +3,13 @@ module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx,mdx}', './src/pages/**/*.{js,ts,jsx,tsx,mdx}', './src/components/**/*.{js,ts,jsx,tsx,mdx}', './src/app/**/*.{js,ts,jsx,tsx,mdx}'],
   theme: {
     container: {
-      center: true,
       padding: {
         DEFAULT: '20px',
+        sm: '20px',
+        md: '35px',
+        lg: '110px',
+        xl: '130px',
       },
-    },
-    screens: {
-      sm: '768px',
-      md: '1280px',
-      lg: '1920px',
-      // xl: '1920px',
     },
     extend: {
       colors: {

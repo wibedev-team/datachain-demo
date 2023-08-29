@@ -9,5 +9,5 @@ interface SectionTitleProps {
 }
 
 export const SectionTitle = ({ text }: SectionTitleProps) => {
-  return <h2 className={`text-accent text-3xl leading-[100%] font-medium ${bai.className}`}>{text}</h2>
+  return <h2 className={`text-accent text-3xl leading-[100%] font-medium ${bai.className} md:text-[25.25px] lg:text-[38px] xl:text-6xl`}>{text}</h2>
 }

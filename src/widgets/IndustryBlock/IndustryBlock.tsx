@@ -11,7 +11,7 @@ const DataList = ['LED wall, Chromakey VP, XR setup, AR', 'Camera tracking syste
 export const IndustryBlock = () => {
   return (
     <section
-      className="w-[335px] py-[20px] px-[20px]
+      className="w-[335px] py-[60px] px-[20px]
         sm:w-[808px] sm:py-[38px] sm:px-[55px]
         md:w-[1226px] md:py-[60px] md:px-[83px]
         xl:w-[1920px] xl:py-[90px] xl:px-[130px]">

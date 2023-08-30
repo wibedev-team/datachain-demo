@@ -5,10 +5,10 @@ export const WelcomeBlock = () => {
   return (
     <div
       className="
-    w-[309px] h-[268px] mt-64 ml-7
-    sm:w-[368px] sm:h-[217px] sm:mt-28
-    md:w-[558px] md:h-[253px] md:mt-48 md:ml-16
-    xl:w-[875px] xl:h-[515px] xl:mt-72
+    w-[309px] mt-64 ml-7
+    sm:w-[368px] sm:mt-28
+    md:w-[558px] md:mt-48 md:ml-16
+    xl:w-[875px] xl:mt-72
     ">
       <h1
         className=" text-white font-extrabold

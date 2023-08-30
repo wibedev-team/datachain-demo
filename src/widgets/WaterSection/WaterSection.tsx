@@ -7,8 +7,8 @@ export const WaterSection = () => {
     <section className="max-w-screen-[1920px] mt-36 py-24 px-16">
       <div>
         <h2 className="text-cyan-200 text-6xl font-medium leading-normal uppercase mb-24">water transportation market</h2>
-        <div className="flex flex-wrap justify-between">
-          <div className="pl-36">
+        <div className="flex flex-wrap justify-center">
+          <div className="pl-36 vs:pl-0">
             <div className="mb-8">
               <h3 className="text-white text-3xl font-normal leading-normal tracking-widest uppercase">data</h3>
               <ul className="list-disc text-white/60 text-2xl font-medium leading-normal ml-9">
@@ -27,16 +27,16 @@ export const WaterSection = () => {
             </div>
             <button
               className="flex  text-white   border-solid border-[1px] border-green-100 items-center justify-center gap-5 
-					mt-12 w-[292px] h-[68px] font-medium text-sm/4
-					sm:w-[150px] sm:h-[40px] sm:text-[10px]/[14px] sm:mt-5
-					md:w-[187px] md:h-[44px] md:text-[12px]/[14px] md:mt-12
-					xl:w-[292px] xl:h-[69px] xl:text-[18px]/[21px] 
-				hover:bg-[#00BCD4] hover:border-none 
-				active:bg-[#B2EBF2]">
+							mt-12 w-[292px] h-[68px] font-medium text-sm/4
+							sm:w-[150px] sm:h-[40px] sm:text-[10px]/[14px] sm:mt-5
+							md:w-[187px] md:h-[44px] md:text-[12px]/[14px] md:mt-12
+							xl:w-[292px] xl:h-[69px] xl:text-[18px]/[21px] 
+						hover:bg-[#00BCD4] hover:border-none 
+						active:bg-[#B2EBF2]">
               REQUEST A SOLUTION
             </button>
           </div>
-          <Image src={image} alt="Picture" />
+          <Image className="ml-16 vs:mt-5" src={image} alt="Picture" />
         </div>
       </div>
     </section>

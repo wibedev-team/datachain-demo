@@ -12,8 +12,10 @@ export const List = (props: ListProps) => {
     <>
       <h3 className="text-white text-[30px]/[45px]">{title}</h3>
       <ul className="list-disc ml-[35px] mb-[30px]">
-        {listItems.map((item) => (
-          <li className="text-[#FFFFFF99] text-[24px]/[36px]">{item}</li>
+        {listItems.map((item, index) => (
+          <li key={`listItem_${index}`} className="text-[#FFFFFF99] text-[24px]/[36px]">
+            {item}
+          </li>
         ))}
       </ul>
     </>

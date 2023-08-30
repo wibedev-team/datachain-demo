@@ -15,14 +15,14 @@ module.exports = {
       sm: '400px',
       md: '768px',
       lg: '1280px',
-      xl: '1660px',
-      '2xl': '1920px',
+      xl: '1920px',
     },
     extend: {
       colors: {
         primary: '#ffffff',
         secondary: 'rgba(255, 255, 255, 0.60)',
         accent: '#B2EBF2',
+        blue: '#00BCD4',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

@@ -5,4 +5,4 @@ module.exports = {
   jsxBracketSameLine: true,
   tabWidth: 2,
   printWidth: 200,
-};
+}

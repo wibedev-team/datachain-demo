@@ -1,7 +1,7 @@
-import React from 'react';
-import { WelcomeBlock } from '@widgets/WelcomeBlock/WelcomeBlock';
-import { Header } from '@widgets/Header/Header';
-import { NFTBlock } from '@widgets/NFTBlock/NFTBlock';
+import React from 'react'
+import { WelcomeBlock } from '@widgets/WelcomeBlock/WelcomeBlock'
+import { Header } from '@widgets/Header/Header'
+import { NFTBlock } from '@widgets/NFTBlock/NFTBlock'
 
 export default function Home() {
   return (
@@ -10,5 +10,5 @@ export default function Home() {
       <WelcomeBlock />
       <NFTBlock />
     </main>
-  );
+  )
 }

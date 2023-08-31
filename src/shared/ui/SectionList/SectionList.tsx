@@ -23,8 +23,8 @@ export const SectionList = ({ title, list, className }: SectionListProps) => {
             sm:text-[10.1px]/[15.15px]
             md:text-[15.325px]/[22.988px]
             xl:text-[24px]/[36px]">
-        {list.map((item) => (
-          <li key={item}>{item}</li>
+        {list.map((item, index) => (
+          <li key={index}>{item}</li>
         ))}
       </ul>
     </div>

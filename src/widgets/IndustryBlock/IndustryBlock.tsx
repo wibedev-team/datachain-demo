@@ -18,22 +18,24 @@ export const IndustryBlock = () => {
       <SectionTitle text="Industry solutions" />
       <div
         className="flex flex-col items-start
-        mt-[20px]
-        sm:mt-[25px]
-        md:mt-[38px]
-        xl:mt-[60px]">
+          mt-[20px]
+          sm:mt-[25px]
+          md:mt-[38px]
+          xl:mt-[60px]">
         <div
           className="flex flex-col h-[345px] 
-        sm:h-[38px] sm:flex-row 
-        md:h-[58px] md:flex-row
-        xl:h-[90px] xl:flex-row">
+            sm:h-[38px] sm:flex-row 
+            md:h-[58px] md:flex-row
+            xl:h-[90px] xl:flex-row">
           <SectionSubtitle text={'TV & broadcast virtual production'} className="xl:mb-[60px]" />
           <div
             className="w-[335px] h-[157px] shrink-0  mt-[60px] mb-[60px]
-                sm:w-[340px] sm:h-[180px] sm:ml-[30px] 
-                md:w-[530px] md:h-[306px] md:ml-[70px]
-                xl:w-[819px] xl:h-[429px] xl:ml-[60px]">
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/AVvcaNerxok" allowFullScreen></iframe>
+              sm:w-[340px] sm:h-[180px] sm:ml-[30px] 
+              md:w-[530px] md:h-[306px] md:ml-[70px]
+              xl:w-[819px] xl:h-[429px] xl:ml-[60px]">
+            <video className="w-[100%] h-[100%]" autoPlay={false} loop preload="false" controls poster="/media/images/poster.jpg">
+              <source src="/media/videos/unreal.mp4" />
+            </video>
           </div>
         </div>
 
@@ -42,7 +44,7 @@ export const IndustryBlock = () => {
             sm:mb-[25px] sm:pl-[60px]
             md:mb-[38px] md:pl-[50px]
             xl:pl-[138px]">
-          <SectionList list={DataList} title={'DATA'} className={'mb-[1.875rem]'} />
+          <SectionList list={DataList} title={'DATA'} className={'mb-[18px] sm:mb-[13px] md:mb-[20px] xl:mb-[30px]'} />
           <SectionList list={ToolsList} title={'TOOLS'} className={'mb-[30px] sm:mb-[25px] md:mb-[53px] xl:mb-[60px]'} />
           <SectionButton text={'REQUEST A SOLUTION'} />
         </div>

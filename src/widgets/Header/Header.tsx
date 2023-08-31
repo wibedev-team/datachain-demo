@@ -1,5 +1,4 @@
 import React from 'react'
-
 import { PlanetImage } from '@shared/ui/PlanetImage'
 import { BurgerNavigation } from '@features/BurgerNavigation'
 import { ListNavigation } from '@features/ListNavigation'

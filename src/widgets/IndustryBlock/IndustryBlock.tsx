@@ -1,5 +1,4 @@
 import React from 'react'
-
 import { SectionTitle } from '@shared/ui/SectionTitle'
 import { SectionList } from '@shared/ui/SectionList'
 import { SectionButton } from '@shared/ui/SectionButton'

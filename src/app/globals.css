@@ -12,8 +12,7 @@
     radial-gradient(at 96% 10%, rgb(1, 36, 6) 0px, transparent 50%),
     radial-gradient(at 42% 20%, rgb(0, 43, 74) 0px, transparent 50%),
     radial-gradient(at 4% 49%, rgb(1, 68, 107) 0px, transparent 50%),
-    rgba(0, 0, 0, 0)
-      radial-gradient(at 57% 33%, rgb(0, 15, 28) 0px, #000f1c 50%);
+    rgba(0, 0, 0, 0) radial-gradient(at 57% 33%, rgb(0, 15, 28) 0px, #000f1c 50%);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }

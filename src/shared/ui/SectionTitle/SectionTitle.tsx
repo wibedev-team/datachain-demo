@@ -1,6 +1,6 @@
 import React from 'react'
-
 import { Bai_Jamjuree } from 'next/font/google'
+
 const bai = Bai_Jamjuree({ weight: '500', subsets: ['latin'] })
 
 interface SectionTitleProps {

@@ -13,9 +13,9 @@ export const SectionSubtitle = ({ text, className }: SectionSubtitleProps) => {
     <h3
       className={`text-white first-line:${bai.className} ${className}
         text-[24px]/[24px]
-        sm:text-[16.833px]/[25.25px] 
-        md:text-[25.861px]/[38.791px]
-        xl:text-[40px]/[60px]`}>
+        md:text-[16.833px]/[25.25px] 
+        xl:text-[25.861px]/[38.791px]
+        2xl:text-[40px]/[60px]`}>
       {text}
     </h3>
   )

@@ -1,5 +1,4 @@
 import React from 'react'
-
 import { Roboto } from 'next/font/google'
 
 const roboto = Roboto({ weight: '500', subsets: ['latin'] })
@@ -11,7 +10,6 @@ interface SectionButtonProps {
 export const SectionButton = ({ text }: SectionButtonProps) => {
   return (
     <div>
-      {' '}
       <button
         className={`flex  text-white   border-solid border-[1px] border-green-100 items-center justify-center 
           gap-5 ${roboto.className} transition-all duration-200 w-[292px] h-[68px] font-medium text-sm/4

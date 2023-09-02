@@ -11,11 +11,6 @@ module.exports = {
         'light-green': '#B2EBF2',
         'light-gray': 'rgba(255, 255, 255, 0.60)',
       },
-      screens: {
-        sm: '809px',
-        md: '1226px',
-        xl: '1920px',
-      },
     },
   },
   plugins: [],

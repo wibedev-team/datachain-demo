@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-
+import devices from '@public/media/images/devices.png'
 import { ToolkitList } from '@shared/ui/ToolkitList'
 import { SectionTitle } from '@shared/ui/SectionTitle'
 import { Button } from '@shared/ui/Button'
@@ -16,7 +16,7 @@ export const MobileBlock = () => {
       <div className="flex flex-col justify-between md:flex-row-reverse md:mt-[45px] lg:mt-[65px] xl:mt-[110px]">
         <Image
           className="object-fill my-[60px] md:my-0 md:max-h-[173px] md:max-w-[337px] lg:max-h-[263px] lg:max-w-[512px] xl:max-w-full xl:max-h-[411px]"
-          src="/media/images/devices.png"
+          src={devices}
           alt=""
           width={801}
           height={411}

@@ -7,20 +7,6 @@ module.exports = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
-      colors: {
-        'light-green': '#B2EBF2',
-        'light-gray': 'rgba(255, 255, 255, 0.60)',
-      },
-      opacity: {
-        60: 0.6,
-      },
-    },
-    screens: {
-      vs: '320px',
-      sm: '640px',
-      lg: '1024px',
-      xl: '1280px',
-      '2xl': '1536px',
     },
   },
   plugins: [],

@@ -29,7 +29,6 @@ COPY next.config.js ./
 COPY postcss.config.js ./
 COPY tailwind.config.js ./
 COPY package.json yarn.lock ./
-COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 
 # COPY postcss.config.js ./postcss.config.js
@@ -56,8 +55,9 @@ RUN adduser --system --uid 1001 nextjs
 # COPY --from=builder /app/next.config.js ./
 COPY --from=builder /app/public ./public
 
-COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
+COPY --from=builder --chown=nextjs:nodejs /app/.next ./
 COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
+
 
 USER nextjs
 
@@ -65,5 +65,5 @@ EXPOSE 3000
 
 ENV PORT 3000
 
-CMD [ "node", "server.js"]
+CMD [ "node"]
 # CMD ["pm2-runtime" - Вместо ноды, "node", "server.js"]

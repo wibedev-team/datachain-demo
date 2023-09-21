@@ -12,6 +12,7 @@ COPY postcss.config.js ./postcss.config.js
 COPY tailwind.config.js ./tailwind.config.js
 
 
+
 COPY public ./public
 COPY src ./src
 

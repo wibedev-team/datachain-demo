@@ -1,6 +1,6 @@
 # DataCHAIN
 
-**DataCHAIN** is a service that provides the necessary software tools for analytics, visualization, automation and monitoring.
+**DataCHAIN** is a open source service that provides the necessary software tools for analytics, visualization, automation and monitoring.
 
 ## Setup
 

@@ -4,45 +4,33 @@ import { SectionTitle } from '@shared/ui/SectionTitle'
 import { Button } from '@shared/ui/Button'
 import Image from 'next/image'
 import image from '@public/media/images/MaskGroup.png'
-
+import './NFTBlock.css'
 const dataItems = ['iOS / Android application online configurator', 'App Store / Google Play application publishing module', 'Hosted applications dynamic changes module', 'User base analytics module']
 const toolsItems = ['Cloud platforms technical review', 'Mobile e-commerce market research']
 
 export const NFTBlock = () => {
   return (
-    <section
-      className="
-			mt-[60px] mx-[20px]
-			sm:w-[795px] sm:h-[372px] sm:py-[37px] sm:px-[34px]
-			md:w-[1224px] md:h-[565px] md:py-[57px] md:px-[81px]
-			xl:w-[1918px] xl:h-[884px] xl:mt-[150px] xl:py-[90px] xl:px-[127px]
-			">
-      <SectionTitle text="NFT market analysis on the Ethereum chain" />
-
-      <div
-        className="
-				flex flex-col-reverse items-center gap-[60px]
-				sm:flex-row sm:justify-center
-				md:flex-row md:justify-center
-				xl:flex-row xl:justify-center
-		">
-        <div>
-          <List title="DATA" listItems={dataItems} />
-          <List title="TOOLS" listItems={toolsItems} />
-
-          <Button>REQUEST A SOLUTION</Button>
+    <section className="mt-8  w-11/12 mdl:px-[20px]">
+      <div className="flex flex-col-reverse items-center gap-24 justify-center">
+        <div className="flex flex-col ">
+          <div className="flex gap-24 mdl:flex-wrap">
+            <div className="w-11/12 flex flex-col justify-center">
+              <Image src={image} className="rounded-md" alt="image" />
+              <div className="positionSquare">
+                <div className="absolute square blue"></div>
+                <div className="absolute square red"></div>
+              </div>
+            </div>
+            <div>
+              <div className="relative">
+                <SectionTitle text="NFT market analysis on the Ethereum chain" />
+              </div>
+              <List title="DATA" listItems={dataItems} />
+              <List title="TOOLS" listItems={toolsItems} />
+              <Button>REQUEST A SOLUTION</Button>
+            </div>
+          </div>
         </div>
-
-        <Image
-          src={image}
-          alt="image"
-          className="
-					w-[335px]
-					sm:w-[340px]
-					md:w-[531px]
-					xl:w-[820px]
-					"
-        />
       </div>
     </section>
   )

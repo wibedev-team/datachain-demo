@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 export const PlanetImage = () => {
   return (
@@ -11,8 +11,7 @@ export const PlanetImage = () => {
         xl:w-[70%] xl:h-[100%]"
       style={{
         backgroundImage: 'url("/media/images/planet.png")',
-        pointerEvents: "none",
-      }}
-    ></div>
-  );
-};
+        pointerEvents: 'none',
+      }}></div>
+  )
+}

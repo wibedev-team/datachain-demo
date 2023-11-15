@@ -1,0 +1,157 @@
+.square {
+  position: absolute;
+  background-color: blue;
+  z-index: -1;
+  top: 200px;
+}
+
+.square.red {
+  left: 50px;
+  top: 250px;
+  width: 400px;
+  height: 350px;
+  background: #651fff;
+  opacity: 0.3;
+  border-radius: 22.676px;
+  transform: rotate(-67.38deg);
+}
+
+.square.blue {
+  top: 230px;
+  width: 380px;
+  height: 350px;
+  background: #006064;
+  opacity: 0.3;
+  border-radius: 22.676px;
+  transform: rotate(-90deg);
+}
+
+.positionSquare {
+  position: relative;
+  top: -600px;
+}
+
+/* Media queries for different device sizes */
+
+/* For devices with a maximum width of 768px */
+@media (max-width: 800px) {
+  .square.red {
+    left: 90px;
+    top: 180px;
+    width: 300px;
+    height: 250px;
+    background: #651fff;
+    opacity: 0.3;
+    border-radius: 22.676px;
+    transform: rotate(-67.38deg);
+  }
+
+  .square.blue {
+    top: 64px;
+    width: 170px;
+    height: 350px;
+    background: #006064;
+    opacity: 0.3;
+    border-radius: 22.676px;
+    transform: rotate(-90deg);
+  }
+
+  .positionSquare {
+    top: -400px;
+  }
+}
+
+/* For devices with a maximum width of 480px */
+@media (max-width: 480px) {
+  .square.red {
+    left: 25px;
+    top: 100px;
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    transform: rotate(-67.38deg);
+  }
+
+  .square.blue {
+    top: 80px;
+    width: 180px;
+    height: 150px;
+    border-radius: 10px;
+    transform: rotate(-90deg);
+  }
+
+  .positionSquare {
+    top: -200px;
+  }
+}
+
+@media (max-width: 640px) {
+  .square.red {
+    left: 150px;
+    top: -60px;
+    width: 300px;
+    height: 280px;
+    border-radius: 10px;
+    transform: rotate(-67.38deg);
+  }
+
+  .square.blue {
+    top: -150px;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    transform: rotate(-90deg);
+  }
+
+  .positionSquare {
+    top: -200px;
+  }
+}
+
+/* For devices with a minimum width of 1200px */
+@media (min-width: 1200px) {
+  .square.red {
+    left: 150px;
+    top: 400px;
+    width: 500px;
+    height: 450px;
+    border-radius: 30px;
+    transform: rotate(-67.38deg);
+  }
+
+  .square.blue {
+    top: 340px;
+    width: 480px;
+    height: 450px;
+    border-radius: 30px;
+    transform: rotate(-90deg);
+  }
+
+  .positionSquare {
+    top: -800px;
+  }
+}
+
+/* For devices with a minimum width of 1440px */
+@media (min-width: 1440px) {
+  .square.red {
+    left: 150px;
+    top: 450px;
+    width: 600px;
+    height: 550px;
+    border-radius: 35px;
+    transform: rotate(-67.38deg);
+  }
+
+  .square.blue {
+    top: 400px;
+    width: 580px;
+    height: 550px;
+    border-radius: 35px;
+    transform: rotate(-90deg);
+  }
+
+  .positionSquare {
+    top: -1000px;
+  }
+}
